@@ -31,11 +31,7 @@
       "metadata": {
         "id": "uwcNJ1D3Gsj8",
         "colab_type": "code",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 496
-        },
-        "outputId": "16726792-a2c9-4622-9c19-4bf4d30a2e45"
+        "colab": {}
       },
       "source": [
         "from keras.datasets import imdb \n",
@@ -58,46 +54,8 @@
         "\n",
         "\n"
       ],
-      "execution_count": 11,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "text": [
-            "/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/indexed_slices.py:434: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.\n",
-            "  \"Converting sparse IndexedSlices to a dense Tensor of unknown shape. \"\n"
-          ],
-          "name": "stderr"
-        },
-        {
-          "output_type": "stream",
-          "text": [
-            "Train on 20000 samples, validate on 5000 samples\n",
-            "Epoch 1/10\n",
-            "20000/20000 [==============================] - 65s 3ms/step - loss: 0.4805 - accuracy: 0.7752 - val_loss: 0.5436 - val_accuracy: 0.7852\n",
-            "Epoch 2/10\n",
-            "20000/20000 [==============================] - 64s 3ms/step - loss: 0.2849 - accuracy: 0.8888 - val_loss: 0.3085 - val_accuracy: 0.8816\n",
-            "Epoch 3/10\n",
-            "20000/20000 [==============================] - 64s 3ms/step - loss: 0.2266 - accuracy: 0.9152 - val_loss: 0.3765 - val_accuracy: 0.8376\n",
-            "Epoch 4/10\n",
-            "20000/20000 [==============================] - 70s 4ms/step - loss: 0.1974 - accuracy: 0.9261 - val_loss: 0.3289 - val_accuracy: 0.8738\n",
-            "Epoch 5/10\n",
-            "20000/20000 [==============================] - 70s 3ms/step - loss: 0.1768 - accuracy: 0.9370 - val_loss: 0.2930 - val_accuracy: 0.8840\n",
-            "Epoch 6/10\n",
-            "20000/20000 [==============================] - 71s 4ms/step - loss: 0.1561 - accuracy: 0.9450 - val_loss: 0.3337 - val_accuracy: 0.8650\n",
-            "Epoch 7/10\n",
-            "20000/20000 [==============================] - 70s 4ms/step - loss: 0.1482 - accuracy: 0.9489 - val_loss: 0.3186 - val_accuracy: 0.8706\n",
-            "Epoch 8/10\n",
-            "20000/20000 [==============================] - 70s 4ms/step - loss: 0.1357 - accuracy: 0.9520 - val_loss: 0.3185 - val_accuracy: 0.8796\n",
-            "Epoch 9/10\n",
-            "20000/20000 [==============================] - 70s 3ms/step - loss: 0.1210 - accuracy: 0.9582 - val_loss: 0.4505 - val_accuracy: 0.8460\n",
-            "Epoch 10/10\n",
-            "20000/20000 [==============================] - 70s 3ms/step - loss: 0.1134 - accuracy: 0.9612 - val_loss: 0.3473 - val_accuracy: 0.8808\n",
-            "25000/25000 [==============================] - 32s 1ms/step\n",
-            "[0.39195146369218825, 0.8670399785041809]\n"
-          ],
-          "name": "stdout"
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
